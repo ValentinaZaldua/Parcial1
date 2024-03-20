@@ -27,6 +27,11 @@ public class TasaMetabolicaBasal {
 		this.edad = edad;
 	}
 	
+	public TasaMetabolicaBasal(int peso, int altura, int edad) {
+		this.peso = peso;
+		this.altura = altura;
+		this.edad = edad;
+	}
 	
 	public static long Hombre(int peso, int altura, int edad) {
 		return (long) (88.362 + (13.397 * peso) + (4.799 * altura) - (5.677 * edad)) ; 
